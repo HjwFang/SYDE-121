@@ -29,7 +29,7 @@ void print_point(const Point3D &pt) {
     cout << "X Coordinate: "  << setw(10) << pt.x << endl;
     cout << "Y Coordinate: "  << setw(10) << pt.y << endl;
     cout << "Z Coordinate: "  << setw(10) << pt.z << endl;
-    cout << "Order:        "  << setw(10) << pt.order << endl << endl;
+    cout << "Classification:        "  << setw(10) << pt.order << endl << endl;
 }
 
 double spatial_dist(const Point3D &pt1, const Point3D &pt2){
