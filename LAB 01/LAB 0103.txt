@@ -1,0 +1,12 @@
+1. Exploring Assembly
+a) eax
+b) 2
+c) 2a + b
+
+2. Assembly Modification
+calc2(int, int):
+mov eax, esi    // eax = b
+add eax, eax    // eax = 2b
+add eax, edi    // eax = 2b + a
+ret
+

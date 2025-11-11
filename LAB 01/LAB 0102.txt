@@ -1,0 +1,20 @@
+2(a)
+Due to a change in '< 10' to '<= 10', the for loop runs one extra cycle until i = 10. Therefore, there is an additional output of 'i = 10 squared = 100'.
+
+2(b)
+All output is shown in one line.
+
+2(c)
+i's increments increase by 2 instead of 1, which also changes the squared outcomes, as well as the number of outputs.
+
+2(d)
+Error: expected primary-expression before ')' token
+Explanation: the 'less than' symbol must be followed by an argument before the closing bracket. (eg. a value, a variable, or =, etc.)
+
+2(e)
+Error: expected a ';'
+Explanation: (Almost) Every line of C++ code should end with a semi-colon. In this case it should've ended with a semi-colon, but didn't.
+
+2(f)
+Error: ' iostream: no such file of directory'
+Explanation: Everything included in the brackets are searched for a as a directory. iostream with a space in front of it doesn't exist.
