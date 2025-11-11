@@ -1,7 +1,8 @@
 #include "large_sum.h"
 
+string num1, num2;
+
 int main(){
-    string num1, num2;
     while (true){
         enter_nums(num1, num2);
 
@@ -14,8 +15,7 @@ int main(){
             return 1;
         }
 
-        cout << "Sum: " << add_large_numbers(num1, num2) << endl << endl;
-
+        display_num(add_large_numbers(num1, num2));
     }
 }
 
@@ -46,4 +46,13 @@ string add_large_numbers(string num1, string num2){
     }
     
     return result;
+}
+
+void display_num(string result){
+    while (result.length() > 1 && result[0] == '0'){
+        result = result.substr(1);
+    }
+
+    cout << "Sum: " << result << endl << endl;
+    return;
 }
